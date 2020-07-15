@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="This is my portfolio website.">
+        <meta name="author" content="Shagun">
+
+
+        <title>🎀Shagun</title>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Nunito|Great+Vibes" rel="stylesheet">
+        <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+        <link href="./assets/css/styles.css" rel="stylesheet">
+    </head>
+
+	<body id="top">
+
+		<header >
+			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+				<a class="navbar-brand pr-3 border-right" href="index.html">Shagun</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#top">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#myExpertise">Expertise</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#aboutMe">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#myProjects">Projects</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#call_to_action">Contact</a>
+						</li>
+					</ul>
+					<form class="form-inline mt-2 mt-md-0">
+						<input class="form-control mr-sm-2 searchBar" type="text" placeholder="Search..." aria-label="Search">
+						<i class="fas fa-search" style="color:var(--cyan)"></i>
+					</form>
+				</div>
+			</nav>
+		</header>
+
+		<main role="main">
+
+			<div id="PGCarousel" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#PGCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#PGCarousel" data-slide-to="1"></li>
+					<li data-target="#PGCarousel" data-slide-to="2"></li>
+				</ol>
+
+				<div class="carousel-inner">
+					<div class="carousel-item first-slide active">
+						<img class="first-slide" src="./assets/img/5.png" alt="First slide">
+						<div class="carousel-caption d-flex align-items-center">
+							<div class="container-fluid caption-parent">
+								<h1 class="hero-heading animate__animated animate__slideInDown ">Hi, I`m Shagun.</h1>
+								<p class="hero-para animate__animated animate__slideInUp">A computer science student passionate about programming and design.</p>
+								<p><a class="btn btn-lg btn-info hero-btn animate__animated animate__zoomIn animate__delay-1s" href="#call_to_action" role="button" id="hero_hire">Get in touch!</a></p>
+							 </div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img class="second-slide" src="./assets/img/6.jpg" alt="Second slide">
+						<div class="carousel-caption d-flex align-items-center">
+							<div class="container-fluid caption-parent">
+								<h3 class=" animate__animated animate__zoomIn ">I enjoy coding and creating intelligent designs which are user-friendly..</h3>
+
+								<p><a class="btn btn-lg btn-info hero-btn animate__animated animate__pulse animate__delay-1s " href="#aboutMe" role="button">Learn more</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img class="third-slide" src="./assets/img/1.jpg" alt="Third slide">
+							<div class="carousel-caption d-flex align-items-center">
+								<div class="container-fluid caption-parent">
+									<h1 class="hero-heading animate__animated animate__backInDown">I sharpen my knowledge everyday</h1>
+									<p class="hero-para hero-special animate__animated animate__backInUp">Have a look at my projects.</p>
+									<p><a class="btn btn-lg btn-info hero-btn animate__animated animate__pulse animate__infinite" href="#myProjects" role="button">Browse projects</a></p>
+								</div>
+							</div>
+					</div>
+				</div>
+
+				<a class="carousel-control-prev" href="#PGCarousel" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#PGCarousel" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div> <!-- carousel end -->
+
+		<!-- EXPERTISE section starts here  -->
+
+			<div class="container expertise pt-4 pb-3 breakpoint" id="myExpertise">
+				<h1 class="text-center mb-3 pt-5"> <strong>Expertise</strong> </h1>
+				<p class="text-center mb-5 lead"> I have skills in all phases of the design process, from planning stage until completion.  </p>
+				<div class="row">
+					<div class="col-lg-4">
+						<img class="rounded-circle mb-3" data-aos="zoom-out" data-aos-duration="2000" src="assets/img/ideas.jpg" alt="Ideas & Concepts image" width="140" height="140">
+						<h2>Ideas & Concepts</h2>
+						<p class="text-justify ml-0">I am a creative person that enjoys playing around with concepts and different ideas.</p>
+					</div><!-- /.col-lg-4 -->
+					<div class="col-lg-4">
+						<img class="rounded-circle mb-3" data-aos="zoom-out" src="./assets/img/design.jpeg" alt="Design & UI/UX image" width="140" height="140">
+						<h2>Design & UI/UX</h2>
+						<p class="text-justify">I like to create sharp and intelligent designs, totally centered to good user experience.</p>
+					</div><!-- /.col-lg-4 -->
+					<div class="col-lg-4">
+						<img class="rounded-circle mb-3" data-aos="zoom-out"  src="./assets/img/code4.jpeg" alt="Code image" width="140" height="140">
+						<h2>Code</h2>
+						<p class="text-justify mr-0">I enjoy coding and I am not afraid to take on new challenges!</p>
+					</div><!-- /.col-lg-4 -->
+				</div><!-- /.row -->
+
+			</div> <!-- .container expertise end -->
+
+			<!-- SKILLS section starts here  -->
+
+			<div class="container-fluid pt-5 pb-5" id="mySkills">
+				<h2 class="text-center mb-3 pb-3"> Skills Set </h2>
+					<div class="skillsContainer d-flex flex-wrap justify-content-between mx-auto">
+						<p class="border border-info rounded p-2">HTML5</p>
+						<p class="border border-info rounded p-2">CSS3</p>
+						<p class="border border-info rounded p-2">JS/ ES6</p>
+						<p class="border border-info rounded p-2">Bootstrap 4</p>
+						<p class="border border-info rounded p-2">jQuery</p>
+						<p class="border border-info rounded p-2">NodeJS</p>
+            <p class="border border-info rounded p-2">ExpressJS</p>
+						<p class="border border-info rounded p-2">AngularJS</p>
+						<p class="border border-info rounded p-2">JSON</p>
+            <p class="border border-info rounded p-2">Git</p>
+            <p class="border border-info rounded p-2">MongoDB</p>
+            <p class="border border-info rounded p-2">MySQL</p>
+            <p class="border border-info rounded p-2">C</p>
+            <p class="border border-info rounded p-2">C++</p>
+            <p class="border border-info rounded p-2">JAVA</p>
+            <p class="border border-info rounded p-2">MATLAB</p>
+
+					</div>
+
+			</div> <!-- .container-fluid skills end -->
+
+		<!-- ABOUT section starts here  -->
+
+			<div class="container-fluid pt-4 pb-3 about breakpoint" id="aboutMe">
+				<h1 class="text-center mb-3 pt-5"> <strong>About</strong> </h1>
+				<div class="container row mx-auto">
+					<div class="col-lg-4 d-flex align-items-start p-0 circle_container">
+						<img class="circle img-fluid" src="assets/img/2.png" title="Circle" alt="Circle">
+					</div>
+					<div class="col-lg-8  text-justify p-0">
+						<p> My name is Shagun. I'm a Btech student in Computer Science Department at National Institute of Technology Delhi.  </p>
+						<p> Currently, I have dedicated my time to deeply understanding and learning web-technologies. Through hard work and dedication, I have sharpened my knowledge of HTML, CSS and JavaScript, while also looking into different frameworks and libraries (jQuery, Bootstrap, NodeJS, and others), along with back-end development.  When dealing with a project, I pay attention to the smallest details addressing problems with patience. Web design and development helps me to free my creative mind and allow me to satisfy my desire towards constant self growth.  </p>
+            <p> Also, being a yoga enthusiast helps me to reduce stress, make my mind clearer and improve my concentration.</p>
+            <p> I am focused on crafting clean & user‑friendly experiences..</p>
+          </div>
+				</div>
+				<div class="container">
+					<blockquote class="blockquote text-right pt-3 mb-1">
+						<p class="mb-0">“Strive for progress, not perfection.”</p>
+					</blockquote>
+				</div>
+			</div> <!-- .container about end -->
+
+		<!-- PROJECTS section starts here  -->
+		<!-- Only recent projects are presented; for all projects, please visit my GitHub account  -->
+
+			<div class="container projects breakpoint pt-4 pb-3" id="myProjects">
+				<h1 class="text-center mb-3 pt-5"> <strong>Projects</strong> </h1>
+				<p class="text-center mb-5 lead"> I have created different-complexity projects, testing my limits and constantly expanding my set of skills.  </p>
+				<div class="row justify-content-between">
+					<div class="col-md-4">
+						<div class="card mt-3 mb-3">
+							<img class="card-img-top" src="./assets/img/previews/preview2.png" title="1.Component Creator Preview" alt="Voiceinator Preview">
+							<div class="card-body">
+								<h5 class="card-title">Speech Synthesis</h5>
+								<p class="card-text text-justify">A voiceinator that generate voices with different rates and pitchs.</p>
+								<a href="https://shagun3.github.io/Speech_Synthesis/" target="_blank" class="live_demo btn btn-info btn-sm mr-2">Live demo &raquo;</a>
+								<a href="https://github.com/shagun3/Speech_Synthesis" target="_blank" class=" btn btn-info btn-sm">See code &raquo;</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card mt-3 mb-3">
+							<img class="card-img-top" src="./assets/img/previews/Preview1.png" title="2.NGO Preview" alt="NGO Website Preview">
+							<div class="card-body">
+								<h5 class="card-title">NGO Website</h5>
+								<p class="card-text text-justify">An website for a foundation, including CSS and JS animations.  </p>
+								<a href="https://shagun3.github.io/predulive/" target="_blank" class="live_demo btn btn-info btn-sm mr-2">Live demo &raquo;</a>
+								<a href="https://github.com/shagun3/predulive" target="_blank" class=" btn btn-info btn-sm">See code &raquo;</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card mt-3 mb-3">
+							<img class="card-img-top" src="./assets/img/previews/preview10.png" title="3.Daly Planner" alt="Daly Planner Preview">
+							<div class="card-body">
+								<h5 class="card-title">Daily Planner</h5>
+								<p class="card-text text-justify">Stay organised throughout your days with this great tool. Never miss a thing!</p>
+								<a href="https://shagun3.github.io/daily-planner/" target="_blank" class="live_demo btn btn-info btn-sm mr-2">Live demo &raquo;</a>
+								<a href="https://github.com/shagun3/daily-planner" target="_blank" class="btn btn-info btn-sm">See code &raquo;</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-between">
+					<div class="col-md-4">
+						<div class="card mt-3 mb-3">
+							<img class="card-img-top" src="./assets/img/previews/preview4.png" title="4.Video Speed Controller" alt="Video Speed Controller">
+							<div class="card-body">
+								<h5 class="card-title">Video Speed Controller</h5>
+								<p class="card-text text-justify">Change the original speed of videos from 0.4 times to 4 times!</p>
+                <a href="https://shagun3.github.io/Video-Speed-Controller/" target="_blank" class="live_demo btn btn-info btn-sm mr-2">Live demo &raquo;</a>
+								<a href="https://github.com/shagun3/Video-Speed-Controller" target="_blank" class="btn btn-info btn-sm">See code &raquo;</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card mt-3 mb-3">
+							<img class="card-img-top" src="./assets/img/previews/preview5.png" title="5.Pet Care Preview" alt="Pet Care Preview">
+							<div class="card-body">
+								<h5 class="card-title">Pet Care Website</h5>
+								<p class="card-text text-justify">A pretty looking website for pet care centre.</p>
+								<a href="https://shagun3.github.io/pet-care-website/" target="_blank" class="live_demo btn btn-info btn-sm mr-2">Live demo &raquo;</a>
+								<a href="https://github.com/shagun3/pet-care-website" target="_blank" class=" btn btn-info btn-sm">See code &raquo;</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card mt-3 mb-3">
+							<img class="card-img-top" src="./assets/img/previews/preview9.png" title="6.Countdown timer" alt="Countdown timer">
+							<div class="card-body">
+								<h5 class="card-title">Countdown Timer</h5>
+								<p class="card-text text-justify">A timer that helps in keeping track of the time for more productivity.</p>
+								<a href="https://shagun3.github.io/countdown-timer/" target="_blank" class="live_demo btn btn-info btn-sm mr-2">Live demo &raquo;</a>
+								<a href="https://github.com/shagun3/countdown-timer" target="_blank" class="btn btn-info btn-sm">See code &raquo;</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-between">
+					<div class="col-md-4">
+						<div class="card mt-3 mb-3">
+							<img class="card-img-top" src="./assets/img/previews/preview3.png" title="7.Guitar & Drum kit" alt="Music kit Preview">
+							<div class="card-body">
+								<h5 class="card-title">Guitar & Drum kit</h5>
+								<p class="card-text text-justify">Create your own music samples with this drum/ guitar kit.</p>
+								<a href="https://patriciageo3.github.io/guitar-drum-kit/" target="_blank" class="live_demo btn btn-info btn-sm mr-2">Live demo &raquo;</a>
+								<a href="https://github.com/patriciageo3/guitar-drum-kit" target="_blank" class="btn btn-info btn-sm">See code &raquo;</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+							<div class="card mt-3 mb-3">
+								<img class="card-img-top" src="./assets/img/previews/preview7.png" title="8.Cafe Website Preview" alt="Cafe Website Preview">
+								<div class="card-body">
+									<h5 class="card-title">Cafe Website</h5>
+									<p class="card-text">A website for cafe created with parallax effects!</p>
+									<a href="https://shagun3.github.io/cafe-website/" target="_blank" class="live_demo btn btn-info btn-sm mr-2">Live demo &raquo;</a>
+									<a href="https://github.com/shagun3/cafe-website" target="_blank" class="btn btn-info btn-sm">See code &raquo;</a>
+								</div>
+							</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card mt-3 mb-3">
+							<img class="card-img-top" src="./assets/img/previews/preview8.png" title="9.Sleep Anayser" alt="Sleep Anayser Preview">
+							<div class="preview"></div>
+							<div class="card-body">
+								<h5 class="card-title">Sleep Analyser</h5>
+								<p class="card-text">Examines your sleep cycle and helps you to maintain a good one!</p>
+								<a href="https://shagun3.github.io/sleep-analyser/" target="_blank" class="live_demo btn btn-info btn-sm mr-2">Live demo &raquo;</a>
+								<a href="https://github.com/shagun3/sleep-analyser" target="_blank" class="btn btn-info btn-sm">See code &raquo;</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			 </div> <!-- .container projects end -->
+
+
+		<!-- Contact section starts here  -->
+
+			<div class="container-fluid text-center pt-5 pb-5 breakpoint" id="call_to_action">
+				<h1 class="display-4 pt-3 mb-2"><strong> Do you want to get in touch?</strong></h1>
+				<p class="lead"> I'm am more than happy to hear from you.</p>
+				<a class="btn btn-lg btn-primary"  href= "mailto: shagunss3737@gmail.com" role="button">Get started!</a>
+			</div> <!-- .container contact end -->
+
+		</main>
+
+    <!-- FOOTER starts here  -->
+
+        <footer class="container-fluid bg-dark pt-5">
+            <a href="#top"><p class="brand-name text-center">Shagun</p></a>
+            <p class="text-center">(: Designed & developed by Shagun :)</p>
+            <div class="media pb-5 pt-2">
+                <a href="https://github.com/shagun3" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
+            </div>
+            <a href="#top"> <i class="fas fa-chevron-circle-up fa-3x"></i> </a>
+        </footer>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"></script>
+  <script src="./assets/js/main.js"></script>
+
+      <!-- AOS JS -->
+       <script src="aos/dist/aos.js"></script>
+       <script type="text/javascript">
+         AOS.init({
+           easing: 'ease-in-out-sine'
+         });
+       </script>
+
+
+
+	</body>
+</html>
